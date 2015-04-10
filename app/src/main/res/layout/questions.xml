@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/quest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Do you believe in God?"
+        android:textSize="40sp"
+        android:paddingTop="100dp"/>
+    <Button
+        android:id="@+id/yes_butt"
+        android:text="Yay"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:textStyle="bold"
+        android:background="#ffff3b69"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/no_butt"
+        android:text="Nay"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:textStyle="bold"
+        android:background="#ff2922ff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
